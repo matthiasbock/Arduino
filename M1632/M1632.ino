@@ -1,7 +1,7 @@
-int DB[8] = {0,1,2,3,4,5,6,7};
-int RS = 8;
-int RW = 9;
-int E = 10;
+int DB[8] = {45,43,41,39,37,35};
+int RS = 33;
+int RW = 31;
+int E = 29;
 
 #include <LiquidCrystal.h>
 
@@ -11,4 +11,5 @@ void setup(){
   lcd.print("hello, world!");
 }
 void loop() {
+  lcd.print("hello, world!");
 }
